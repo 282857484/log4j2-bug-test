@@ -20,6 +20,9 @@ import org.apache.logging.log4j.Logger;
  * 2. 高于2.10的 在启动参数中加入 -Dlog4j2.formatMsgNoLookups=true
  *
  * 2021-12-11 目前看log4j2新的版本中添加了log4j2.enableJndi=false的新配置，默认是关闭了JNDI的代码
+ *
+ * https://github.com/zhangyoufu/log4j2-without-jndi
+ * org/apache/logging/log4j/core/lookup/JndiLookup.class
  */
 
 
